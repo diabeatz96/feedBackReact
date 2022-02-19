@@ -1,5 +1,29 @@
+import Header from "./components/Header";
+import Feedbackitem from "./components/Feedbackitem";
+
 function App() {
-    const title = 'Blog Post';
+    return (
+        <>
+        <Header />
+            <div className="container">
+              <Feedbackitem />
+            </div>
+
+
+        </>
+
+    )
+}
+
+
+
+
+export default App;
+
+
+/*
+
+ const title = 'Blog Post';
     const body = 'This is my blog post';
     const comments = [
         {id: 1, text: 'Comment one'},
@@ -33,7 +57,4 @@ function App() {
 
         </div> // THIS IS AN EMPTY FRAGMENT
 
-    )
-}
-
-export default App;
+ */
