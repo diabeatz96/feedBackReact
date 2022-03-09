@@ -163,6 +163,11 @@ input:focus {
     background: #ff6a95;
 }
 
+.active {
+    background: #000;
+    color: red;
+}
+
 .btn:hover {
     transform: scale(0.98);
     opacity: 0.9;
