@@ -4,7 +4,7 @@ import {useContext} from "react";
 import {motion, AnimatePresence} from 'framer-motion'
 import FeedbackContext from "../context/FeedbackContext";
 
-function FeedbackList({}) {
+function FeedbackList() {
     const {feedback} = useContext(FeedbackContext);
 
     if(!feedback || feedback.length === 0) {

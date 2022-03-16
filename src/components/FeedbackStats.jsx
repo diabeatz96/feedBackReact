@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import {useContext} from "react";
 import FeedbackContext from "../context/FeedbackContext";
 
-function FeedbackStats({}) {
+function FeedbackStats() {
     //Calculate Ratings Avg.
     const { feedback } = useContext(FeedbackContext);
 
