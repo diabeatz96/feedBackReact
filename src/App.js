@@ -1,5 +1,4 @@
-import {BrowserRouter as Router, Route, Routes, Link, NavLink} from "react-router-dom";
-import Card from "./shared/Card";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Header from "./components/Header";
 import FeedbackList from "./components/FeedbackList";
 import FeedbackStats from "./components/FeedbackStats";
@@ -20,7 +19,7 @@ function App() {
                     <Route path='/*' element = {
                         <>
                             <FeedbackForm />
-                            <FeedbackStats/>
+                            <FeedbackStats feedback={}/>
                             <FeedbackList />
                         </>
                     }>
