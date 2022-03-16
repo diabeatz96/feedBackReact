@@ -19,7 +19,7 @@ function App() {
                     <Route path='/*' element = {
                         <>
                             <FeedbackForm />
-                            <FeedbackStats feedback={}/>
+                            <FeedbackStats/>
                             <FeedbackList />
                         </>
                     }>
